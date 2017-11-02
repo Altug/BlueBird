@@ -1,0 +1,34 @@
+/*
+BlueBird v.0.5
+Custimizable Twitter feed fetcher.
+Latest Changes on this file: Altug Gurkaynak (https://github.com/altug) - 01/11/2017 - 17:51
+*/
+
+@import 'site.reset.css';
+body {font-family:Arial,sans-serif; font-size:16px}
+
+/* Genel */
+#BlueBird {width:100%; background:transparent; font-size:.8em; padding:10px; box-sizing: border-box;}
+
+	#BlueBird a {text-decoration:none}
+	#BlueBird ul {list-style:none; margin:0; padding:0}
+		#BlueBird li {display:block; clear:both; position:relative; overflow:hidden; margin:5px 0; padding:10px; border:1px solid transparent; overflow:hidden; border-radius:3px}
+
+/* Linkler */
+	.twit_avatar {display:block; position:absolute; margin-right:10px;}
+		.twit_avatar .TweetAuthor-avatar {display: block; position: absolute; margin-right: 10px;}
+		.twit_avatar .TweetAuthor-avatar img {width:36px; height:36px; border:none; border-radius:50%; border:1px solid rgba(170, 170, 170, 0.50)}
+		.twit_avatar .TweetAuthor-name, .twit_avatar .TweetAuthor-screenName, .twit_avatar .TweetAuthor-verifiedBadge, .twit_avatar .Icon--verified, .twit_avatar .u-hiddenVisually {display:none}
+	.twit_twit {display:block; float:left; overflow:hidden; padding-left:45px; font-size:1em; line-height:1.5em}
+		.twit_twitter {display:block; font-size:1.12em; line-height:36px;}
+			.TweetAuthor-link {color:#333}
+			.twit_twitter span {display:inline-block}
+			.twit_twitter .TweetAuthor-avatar {display:none}
+			.twit_twitter .TweetAuthor-name {font-weight:600}
+			.twit_twitter .u-hiddenVisually {background:#1da1f2; color:#fff; border-radius:50%; width: 16px; line-height: 16px; display: inline-block; text-align: center; font-size: .6em}
+		.twit_twit img {width:100%; height:auto; border:none}
+		.twit_twit p {font-size:1em; line-height:1.5em; color:#333; margin-bottom:5px}
+		.tweet-infos {font-size:.9em}
+
+/* Gorseller */
+.tweet-img>img {max-width:100%; height:auto; border:none}
